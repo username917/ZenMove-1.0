@@ -1,0 +1,74 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+	<ribbon startFromScratch="false">
+		<tabs>
+
+			<tab id="TabAdmin" label="ADMIN TOOLS" insertAfterMso="TabHome">
+
+	<group id="ProfMgt" label="Profile Management">
+		<button id="loginutil" label="Login Utility" imageMso="SmartArtStylesGallery" size="large" onAction="Callback14" />
+		<button id="profmgt" label="Profile Management" imageMso="HappyFace" size="large" onAction="Callback15" />
+		<button id="profcrt" label="Create Profile" imageMso="PictureContrastGallery" size="large" onAction="Callback16" />	
+		<button id="chgpwd" label="Change Password" imageMso="ControlsGallery" size="large" onAction="Callback17" />
+	</group>
+
+
+
+			</tab>
+
+
+
+
+
+
+
+
+			<tab id="TabSAPCLerk" label="SAP ANALYST TOOLS" insertAfterMso="TabHome">
+
+	<group id="SAPClerkTAB" label="SAP Clerk Access">
+		<button id="loginn" label="Log In" imageMso="FileCompatibilityChecker" size="large" onAction="Callback6" />
+		<button id="logoutt" label="Check Out" imageMso="AdpPrimaryKey" size="large" onAction="Callback7" />
+	</group>
+
+	<group id="MoveMe" label="Movement Studies 102">
+		<button id="dwldDrv" label="Get Driver Updates" imageMso="DatabaseCopyDatabaseFile" size="large" onAction="Callback8" />
+		<button id="openSysInfo" label="PO Info System" imageMso="FileDocumentManagementInformation" size="large" onAction="Callback9" />
+		<button id="GSheets" label="Make Upload to GSheets" imageMso="ImportMoreMenu" size="large" onAction="Callback10" />
+		<button id="backupEmail" label="Open Driver File Update" imageMso="ProposeNewTime" size="large" onAction="Callback11" />
+		<button id="backupEmailSend" label="Send Email Update" imageMso="FileSendAsAttachment" size="large" onAction="Callback21" />
+
+	</group>
+
+	<group id="recMgt" label="Records Management">
+		<button id="print" label="Print a Production Order" imageMso="PrintOptionsMenu" size="large" onAction="Callback12" />
+		<button id="archive" label="Update Archive" imageMso="ExportSavedExports" size="large" onAction="Callback13" />
+		<button id="clearDriverSheet" label="Clear Driver Update Sheet" imageMso="InkEraseMode" size="large" onAction="Callback19" />
+	</group>
+
+
+			</tab>
+
+
+			<tab id="TabDriver" label="DRIVER'S TOOLS" insertAfterMso="TabHome">
+
+	<group id="driver" label="Driver Access">
+		<button id="login" label="Login" imageMso="AcceptInvitation" size="large" onAction="Callback" />
+		<button id="logout" label="Log Out" imageMso="PrintPreviewClose" size="large" onAction="Callback2" />
+	</group>
+
+	<group id="MoveMee" label="Movementology 101">
+		<button id="movtutil" label="Move Me" imageMso="DatabaseCopyDatabaseFile" size="large" onAction="Callback3" />
+		<button id="GSheetsUpdate" label="Submit Update to G-Sheets" imageMso="TableIndexes" size="large" onAction="Callback4" />
+	</group>
+
+	<group id="BackupEmail" label="Backup Email Transfer">
+		<button id="PickClerk" label="Choose SAP Clerk" imageMso="SmartArtEditIn2D" size="large" onAction="Callback20" />
+		<button id="Email" label="Send Email Update" imageMso="CreateEmail" size="large" onAction="Callback5" />
+	</group>
+
+			</tab>
+
+
+
+		</tabs>
+	</ribbon>
+</customUI>
